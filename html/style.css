@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+#scoreboard {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+#scoreboard h1 {
+    text-align: center;
+}
+
+#players {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#players th, #players td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#players th {
+    background-color: #4CAF50;
+}
+
+#players tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#players tr:hover {
+    background-color: #ddd;
+}
+
+#close {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#close:hover {
+    background-color: #45a049;
+}
